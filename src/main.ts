@@ -160,8 +160,8 @@ function clear_selection() {
     .attr("fill-opacity", 0.5);
 }
 
-const info_button = document.getElementById("info") as HTMLButtonElement | null;
-const links_button = document.getElementById("links") as HTMLButtonElement | null;
+const info_button_query = document.querySelector("#info") as HTMLButtonElement | null;
+const links_button_query = document.querySelector("#links") as HTMLButtonElement | null;
 const modal = document.querySelector("#modal") as HTMLElement | null;
 const modal_content = document.querySelector("#modal-content") as HTMLElement | null;
 const close_modal = document.querySelector("#modal_close") as HTMLElement | null;
